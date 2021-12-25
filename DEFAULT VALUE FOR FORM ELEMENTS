@@ -1,0 +1,58 @@
+8)Write HTML input tags snippet to show default values for all Form elements
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border: 1px solid black;
+            background-color: lightblue;
+            width: 300px;
+            height: 280px;
+        }
+
+        input{
+            width: 250px;
+            margin: 2px;
+            padding: 3px;
+        }
+        div{
+            padding: 15px;
+        }
+        #message{
+            height: 100px;
+        }
+        label{
+            margin:0px 5px;
+        }
+      
+    </style>
+</head>
+
+<body>
+
+    <form action="post">
+        <div>
+
+            <label for="name">Name</label><br>
+            <input id="name" placeholder="Enter your name..." value="pugal" type="text"><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" value="aravindpugal505@gmail.com" placeholder="Enter your email..."><br>
+
+            <label for="message">Message</label><br>
+            <input type="text" id="message" value="Hi this is pugalenthi" placeholder="Enter your message..."><br>
+       
+            <button style="margin: 2px; background-color: green;" type="submit">Send a message</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
